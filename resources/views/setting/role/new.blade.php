@@ -7,7 +7,7 @@
                   @csrf
                   @method('post')
                 <div class="flex flex-col space-y-2">
-                  <label for="role_name" class="text-gray-700 select-none font-medium">Role Name</label>
+                  <label for="role_name" class="text-gray-700 select-none font-medium">Nom Role</label>
                   <input
                     id="role_name"
                     type="text"
@@ -18,7 +18,7 @@
                   />
                 </div>
 
-                <h3 class="text-xl my-4 text-gray-600">Permissions</h3>
+                <h3 class="text-xl my-4 text-gray-600">Services</h3>
                 <div class="grid grid-cols-3 gap-4">
                   @foreach($permissions as $permission)
                       <div class="flex flex-col justify-cente">

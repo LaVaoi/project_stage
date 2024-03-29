@@ -7,7 +7,7 @@
                   @csrf
                   @method('put')
                 <div class="flex flex-col space-y-2">
-                  <label for="role_name" class="text-gray-700 select-none font-medium">Permission Name</label>
+                  <label for="role_name" class="text-gray-700 select-none font-medium">Nom Service</label>
                   <input
                     id="role_name"
                     type="text"
@@ -18,7 +18,7 @@
                   />
                 </div>
                 <div class="text-center mt-16">
-                  <button type="submit" class="bg-blue-500 text-white font-bold px-5 py-1 rounded focus:outline-none shadow hover:bg-blue-500 transition-colors ">Update</button>
+                  <button type="submit" class="bg-blue-500 text-white font-bold px-5 py-1 rounded focus:outline-none shadow hover:bg-blue-500 transition-colors ">Confirmer votre modification</button>
                 </div>
               </div>
 

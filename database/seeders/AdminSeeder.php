@@ -30,9 +30,11 @@ class AdminSeeder extends Seeder
             'password'=>bcrypt('password')
         ]);
 
+      
 
         $admin_role = Role::create(['name' => 'admin']);
         $writer_role = Role::create(['name' => 'writer']);
+
 
         $permission = Permission::create(['name' => 'Post access']);
         $permission = Permission::create(['name' => 'Post edit']);
@@ -62,7 +64,7 @@ class AdminSeeder extends Seeder
         $admin->assignRole($admin_role);
         $writer->assignRole($writer_role);
 
-
+        
         $admin_role->givePermissionTo(Permission::all());
     }
 }

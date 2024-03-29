@@ -11,7 +11,7 @@
                 <div class="flex flex-wrap -mx-3 mb-2">
                     <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                       <label class="block tracking-widetext-gray-700 select-none font-medium mb-2" for="grid-first-name">
-                        Mail Transport
+                        Mail outil Transport
                       </label>
                       <input class="appearance-none block w-full text-gray-700 rounded-lg py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white border-gray-300"  id="mail_transport"
                         type="text"
@@ -22,7 +22,7 @@
 
                     <div class="w-full md:w-1/2 px-3">
                       <label class="block tracking-widetext-gray-700 select-none font-medium mb-2" for="grid-last-name">
-                        Mail Host
+                        Mail Host()
                       </label>
                       <input class="appearance-none block w-full text-gray-700 border border-gray-300 rounded-lg py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                         id="mail_host"
@@ -35,7 +35,7 @@
                 <div class="flex flex-wrap -mx-3 mb-2">
                     <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                       <label class="block tracking-widetext-gray-700 select-none font-medium mb-2" for="grid-first-name">
-                        Mail Port
+                        Mail Port(arrive)
                       </label>
                       <input class="appearance-none block w-full text-gray-700 rounded-lg py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white border-gray-300"  id="mail_port"
                         type="text"
@@ -46,7 +46,7 @@
 
                     <div class="w-full md:w-1/2 px-3">
                       <label class="block tracking-widetext-gray-700 select-none font-medium mb-2" for="grid-last-name">
-                        Mail username
+                        Mail Nom
                       </label>
                       <input class="appearance-none block w-full text-gray-700 border border-gray-300 rounded-lg py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                         id="mail_username"
@@ -86,7 +86,7 @@
                 <div class="flex flex-wrap -mx-3 mb-2">
                     <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                       <label class="block tracking-widetext-gray-700 select-none font-medium mb-2" for="grid-first-name">
-                        Mail From
+                        Mail To From
                       </label>
                       <input class="appearance-none block w-full text-gray-700 rounded-lg py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white border-gray-300"  id="mail_from"
                         type="text"
@@ -97,7 +97,7 @@
                 </div>
 
                 <div class="text-center mt-16">
-                  <button type="submit" class="bg-blue-500 text-white font-bold px-5 py-1 rounded focus:outline-none shadow hover:bg-blue-500 transition-colors ">Update</button>
+                  <button type="submit" class="bg-blue-500 text-white font-bold px-5 py-1 rounded focus:outline-none shadow hover:bg-blue-500 transition-colors ">Tous Modifier</button>
                 </div>
               </div>
 
